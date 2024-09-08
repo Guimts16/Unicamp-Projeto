@@ -2,7 +2,7 @@ function login() {
     const email = document.getElementById("email").value;
     const password = document.getElementById("password").value;
     if (email != "" && password != "") {
-        if (email === "mtsguilherme991@gmail.com" && password === "3141592") {
+        if (email === "mtsguilherme991@gmail.com" && password === "1234567") {
             window.location.href = "menu/index.html";
         } else {
             alert("Usuario o contraseña incorrectos");
