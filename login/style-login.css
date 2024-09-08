@@ -1,0 +1,77 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: url("img/backgroud.jpg");
+
+}
+
+.container {
+    display: flex;
+    position: relative;
+    background-color: white;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #e4e4e4;
+}
+
+.logo {
+    height: 30%;
+    transform: translate(0%, -60%);
+}
+
+.submit {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #FA0000;
+    border: solid 1px transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+
+    &:hover {
+        transition: all .1s ease-in-out;
+    }
+
+
+}
+
+.senha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    transform: translate(0%, -100%);
+    height: 30px;
+    width: 70%;
+    border-color: #DBDBDB;
+    border-radius: 4%;
+    background-color: #FAFAFA;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    height: 30px;
+    width: 70%;
+    transform: translate(0%, -120%);
+    border-color: #DBDBDB;
+    border-radius: 4%;
+    background-color: #FAFAFA;
+}
