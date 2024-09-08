@@ -3,8 +3,22 @@
 }
 
 body {
-    background-image: url("img/backgroud.jpg");
+    background-image: url("assets/backgroud.jpg");
 
+}
+
+.view {
+    width: 30px;
+    background-color: none;
+    border: none;
+    background: none;
+    position: relative;
+    top: -60px;
+    left: 90px;
+
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .container {

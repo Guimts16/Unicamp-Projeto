@@ -1,0 +1,70 @@
+body {
+    background-color: #313338;
+}
+
+/* Estilo do menu lateral */
+.sidebar {
+    height: 100%;
+    width: 250px;
+    /* Largura do menu lateral */
+    position: fixed;
+    top: 0;
+    left: -250px;
+    /* Inicialmente oculto */
+    background-color: #111;
+    /* Cor de fundo do menu */
+    padding-top: 20px;
+    color: white;
+    transition: left 0.3s ease;
+    /* Transição suave ao abrir e fechar */
+}
+
+/* Estilo dos links do menu lateral */
+.sidebar a {
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+}
+
+/* Efeito ao passar o mouse sobre os links */
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+.menu-btn2 {
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.menu-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000;
+    /* Garante que o botão fique sobre o conteúdo */
+}
+
+/* Conteúdo principal */
+.content {
+    margin-left: 20px;
+    /* Margem esquerda para o conteúdo */
+    padding: 20px;
+}
+
+.topic {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
