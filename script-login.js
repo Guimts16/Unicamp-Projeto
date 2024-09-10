@@ -5,7 +5,7 @@ function login() {
         if (email === "mtsguilherme991@gmail.com" && password === "1234567") {
             window.location.href = "menu/index.html";
         } else {
-            alert("Usuario o contraseña incorrectos");
+            alert("Usuario e/ou senha incorretos");
         }
     } else {
         return;
