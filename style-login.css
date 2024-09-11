@@ -4,7 +4,13 @@
 
 body {
     background-image: url("assets/backgroud.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 
+    display: flex;
+    
 }
 
 .view {
