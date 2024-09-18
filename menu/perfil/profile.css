@@ -1,0 +1,39 @@
+
+* {
+    font-family: Helvetica;
+}
+body {
+    background-color: #e8e8e8;
+}
+.inicialLogo {
+    transform: translate(30px, -10px);
+    width: 55px;
+}
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+    color: white;
+    transition: left 0.3s ease;
+    border-style: solid;
+    border-color: #9b9b9b;
+    border-width: 1px;
+    border-top: 0px;
+}
+
+.sidebar a {
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    display: block;
+    &:hover {
+        background-color: #f1f1f1c7;
+        cursor: pointer;
+    }
+}
